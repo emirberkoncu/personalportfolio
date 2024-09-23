@@ -44,17 +44,6 @@ const GitHubProfile = ({ username }) => {
         alt={profile.login}
         className="w-32 h-32 rounded-full mx-auto mb-4"
       />
-
-      <p className="text-center">
-        <a
-          href={profile.html_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500"
-        >
-          GitHub Profile
-        </a>
-      </p>
     </div>
   );
 };
